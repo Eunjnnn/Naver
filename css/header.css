@@ -1,0 +1,67 @@
+.naverlogopic1 {
+    height: 60px;
+}
+
+.search_box {
+    margin: 10px 0px 0px 20px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border : 2px solid #19ce60;
+}
+
+.box {
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.naver_logo {
+    border-bottom : 1px solid gainsboro;
+    padding: 50px;
+    display: flex;
+}
+
+.naverlogopic {
+    width: 50px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.functions {
+    width: 100%;
+    padding: 20px 60px 20px 60px;
+    border-bottom : 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+.functions__:hover{
+    color: green;
+}
+
+.functions__ {
+    font-size: 15px;
+    font-weight: bold;
+    color:#19ce60 ;
+}
+
+.functions___ {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.plus {
+    font-size: 13px;
+    color: grey;
+}
+
+.searchrank {
+    display: flex;
+    justify-content: space-between;
+}
