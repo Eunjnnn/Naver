@@ -1,4 +1,6 @@
 @import "../css/header.css";
+@import "../css/bottom.css";
+@import "../css/main.css";
 
 * {
     box-sizing: border-box;
