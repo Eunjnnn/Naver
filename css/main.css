@@ -2,12 +2,13 @@
 .naver_main{
     display: flex;
     justify-content: space-around;
-    margin : 20px 30px 20px 30px
+    margin : 20px 0px 20px 0px
 }
 
 .main_left {
     float: left;
     width: 750px;
+    margin-right: 15px;
 }
 
 .news_menu {
@@ -30,11 +31,6 @@
     font-weight: bold;
     font-size: 13px;
     padding-right: 10px;
-}
-
-.article_title {
-    color: grey;
-    font-size: 13px;
 }
 
 .news_ {
@@ -68,7 +64,15 @@
     height: 250px;
 }
 
+.magazine {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
 .main_right {
+    margin-left: 15px;
     width: 350px;
     float: right;
 }
@@ -93,4 +97,116 @@
 .login_image {
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.other_info {
+    border: 1px solid #dae1e6;
+    margin-top: 20px;
+    display: flex;
+}
+
+.issue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    padding: 5px;
+}
+
+.issue_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article {
+    border-top: 1px solid #dae1e6;
+    border-bottom: 1px solid #dae1e6;
+    border-left: 1px solid #dae1e6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.arti_type {
+    border-right: 1px solid #dae1e6;
+    padding: 20px;
+}
+
+.leftright {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dae1e6;
+}
+
+.ad {
+    margin-top: 10px;
+    width :"350px";
+    height : "200px";
+}
+
+.shopping_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+.shopping {
+    border: 1px solid #dae1e6;
+}
+
+.shops {
+    background-color: #f7f9fa;
+    border-bottom: 1px solid #dae1e6;
+    padding: 15px;
+}
+.top_shops{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottome_shops{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus_ {
+    font-size: 12px;
+    color: grey;
+    margin-right: 5px;
+}
+
+.photo_shop {
+    padding: 9px;
+    border-bottom: 1px solid #dae1e6;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_img {
+    width: 107px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.comment {
+    font-size: 12px;
+    margin: 0px 5px 20px 5px;
+    line-height: 18px;
+}
+
+.shop_bottom{
+    padding: 20px 20px 20px 13px;
+}
+
+.bottom_cotent{
+    margin-top: 10px;
 }

@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     ></script>
 </head>
-<body>
+<body class="body">
     <div class="header">
         <div class="naver_logo">
             <div class="header_main">
@@ -52,8 +52,10 @@
                     </li>
                 </ul>
                 <div class="searchrank">
-                    <div class="text">1 웹스터디</div> 
-                    <i class="fas fa-chevron-down"></i>
+                    <span> 
+                        <span class="rank">1</span> 
+                        <span class="plus"> 웹스터디</span> </span>
+                    <i class="fas fa-chevron-down" style="font-size: 13px; color: grey;"></i>
                 </div>
             </div>
         </nav>
@@ -64,7 +66,7 @@
             <div class="news_menu">
                 <div class="main_news">
                     <span class="bold_text">연합뉴스 <i class="fas fa-chevron-right"></i></span>
-                    <span class="article_title">김은진 "8월 5일 아웃백에서 식사해..."</span>
+                    <span class="plus">김은진 "8월 5일 아웃백에서 식사해..."</span>
                 </div>
                 <ul class="news_type">
                     <li class="bold_text" style="color: cornflowerblue;">네이버뉴스</li>
@@ -89,6 +91,28 @@
             <div class="news_table">
                 <img class="news_table" src="../image/table_ima.png">
             </div>
+            <div class="magazine">
+                <div class="today_mag">
+                    <span class="bold_text" style="font-size: 14px;">오늘 읽을만한 글</span>
+                    <span class="text_">주제별로 분류된 다양한 글 모음</span>
+                </div>
+                <div class="text_">
+                    <span >2167개의 글  |</span>
+                    <i class="fas fa-cog"></i>
+                    <span>관심주제 설정</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="arti_type"><p class="bold_text">엔터</p></div>
+                <div class="arti_type"><p class="bold_text">스포츠</p></div>
+                <div class="arti_type"><p class="bold_text">웹툰</p></div>
+                <div class="arti_type"><p class="bold_text">패션뷰티</p></div>
+                <div class="arti_type"><p class="bold_text">푸드</p></div>
+                <div class="arti_type"><p class="bold_text">리빙</p></div>
+                <div class="arti_type"><p class="bold_text">영화</p></div>
+                <div class="arti_type"><p class="bold_text">엔터</p></div>
+                <div class="arti_type"><p class="bold_text">여행+</p></div>
+            </div>
         </div>
         <div class="main_right">
             <div class="login">
@@ -101,8 +125,105 @@
                         <p class="text_">비밀번호찾기</p>
                     </div>
                     <div class="id_pw">
-                        <i class="fas fa-user-alt" style="font-size: 10px; color: grey;""></i>
+                        <i class="fas fa-user-alt" style="font-size: 10px; color: grey;"></i>
                         <p class="text_">회원가입</p>
+                    </div>
+                </div>
+            </div>
+            <div class="other_info">
+                <div class="issue">
+                    <div class="issue_">
+                        <div><img src="../image/issue_ima.png" width="60px" height="40px"></div>
+                        <div class="plus">코로나바이러스감염증19 현황</div>
+                    </div>
+                    <div class="button">
+                        <img class="leftright" src="../image/left.png" style="margin-right: -6px;">
+                        <img class="leftright" src="../image/right.png" style="margin-right: 6px;">
+                    </div>
+                </div>
+            </div>
+            <div class="ad">
+                <img src="../image/ad.png" width="350px" height="200px">
+            </div>
+            <div class="shopping_text">
+                <div class="bold_text">쇼핑</div>
+                <div class="category">
+                    <span class="bold_text">상품</span>
+                    <span class="bold_text">쇼핑몰</span>
+                    <span class="bold_text">MEN</span>
+                </div>
+            </div>
+            <div class="shopping">
+                <div class="shops">
+                    <div class="top_shops">
+                        <div class="plus_">G마켓</div>
+                        <div class="plus_">옥션</div>
+                        <div class="plus_">11번가</div>
+                        <div class="plus_">위메프</div>
+                        <div class="plus_">티몬</div>
+                        <div class="plus_">이마트몰</div>
+                    </div>
+                    <div class="bottome_shops">
+                        <div class="plus_">신세계몰</div>
+                        <div class="plus_">올리브영</div>
+                        <div class="plus_">GS샵</div>
+                        <div class="plus_">롯데i몰</div>
+                        <div class="plus_">CJmall</div>
+                        <div class="plus_">하프클럽</div>
+                    </div>
+                </div>
+                <div class="photo_shop">
+                    <div class="line">
+                        <div class="img_ad">
+                            <img class="shop_img" src="../image/s1.png">
+                            <div class="comment">여름속옷은무조건시원하고편해야지</div>
+                        </div>
+                        <div class="img_ad">
+                            <img class="shop_img" src="../image/s2.png">
+                            <div class="comment">이런건처음봐! 실제로보니놀라워</div>
+                        </div>
+                        <div class="img_ad">
+                            <img class="shop_img" src="../image/s3.png">
+                            <div class="comment">매일입게되는 역대급~운동복!</div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="img_ad">
+                            <img class="shop_img" src="../image/s4.png">
+                            <div class="comment">팔다리~닭살 뱀살까지 해결!</div>
+                        </div>
+                        <div class="img_ad">
+                            <img class="shop_img" src="../image/s5.png">
+                            <div class="comment">ALL SALE 지금 사야해요</div>
+                        </div>
+                        <div class="img_ad">
+                            <img class="shop_img" src="../image/s6.png">
+                            <div class="comment">성장에 필수야~ 60% 초특가세일!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop_bottom">
+                    <div class="bold_text">반갑다! 쇼핑뉴스</div>
+                    <div class="bottom_cotent">
+                        <div class="one">
+                            <img src="../image/dot.png" width="15px" height="10px">
+                            <span class="bold_text">준앤줄라이</span>
+                            <span class="comment">안입은듯 편해~ 지금감탄브라특가</span>
+                        </div>
+                    </div>
+                    <div class="bottom_cotent">
+                        <div class="one">
+                            <img src="../image/dot.png" width="15px" height="10px">
+                            <span class="bold_text">G마켓</span>
+                            <span class="comment">매일매일 초특가! 쇼핑은 G마켓!</span>
+                        </div>
+                    </div>
+                    <div class="bottom_cotent">
+                        <div class="one">
+                            <img src="../image/dot.png" width="15px" height="10px">
+                            <span class="bold_text">울산상회</span>
+                            <span class="comment">울산경제진흥함께 중소기업상품추천</span>
+                        </div>
                     </div>
                 </div>
             </div>

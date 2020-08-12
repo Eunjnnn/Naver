@@ -1,7 +1,11 @@
+.body {
+    width: 1130px;
+    margin-left: 60px;
+}
+
 
 /* header */
 .header {
-    margin: 10px 20px 0px 20px;
     position: relative;
 }
 
@@ -26,9 +30,7 @@
 }
 
 .nav {
-    width: 1130px;
     height: 45px;
-    margin-left: 40px;
     position: relative;
     bottom: 0;
 }
@@ -74,7 +76,14 @@
 }
 
 .searchrank {
+    margin-left: 40px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
+}
+.rank {
+    color: #19ce60;
+    font-size: 15px;
+    font-weight: bold;
 }
 
